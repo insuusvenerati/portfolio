@@ -30,7 +30,7 @@
     "react": "16.13.1",
     "react-awesome-button": "6.5.1",
     "react-dom": "16.13.1",
-    "react-helmet": "5.2.1",
+    "react-helmet": "6.1.0",
     "react-scrollspy": "3.4.3",
     "smoothscroll-polyfill": "0.4.4"
   },
