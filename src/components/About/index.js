@@ -13,13 +13,20 @@ const About = () => {
         {/*</a>*/}
 
         <p>
-          Developers football competition in diameter big price to layer the
-          pot. Chavez ultricies care who wants to CNN. Lobortis elementum
-          aliquet eget a den of which they do not hold it in hatred developers
-          nor the mountains of the deposit slip. The element of time, sem ante
-          ullamcorper dolor nulla quam placerat viverra environment is not with
-          our customers. Free makeup and skirt until the mouse or partners or to
-          decorate each targeted.
+          My name is Sean Norwood and I develop web applications using
+          Javascript and Typescript. I specialize in front-end applications
+          using React and React frameworks. I have experience developing APIs
+          using GraphQL, REST, and MongoDB.
+        </p>
+        <p>
+          I am extremely passionate about web development and enjoy learning new
+          patterns, keeping up with the fast-paced world of Javascript, and
+          taking on a new challenge every day.
+        </p>
+        <p>
+          When I'm not programming I lose myself in space-based video games
+          about simulation, survival, and building. I also like to garden at my
+          home in Florida with my wife, son, and two German Shepherds.
         </p>
       </div>
     </section>

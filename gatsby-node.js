@@ -15,7 +15,7 @@ exports.createSchemaCustomization = ({ actions }) => {
    */
   const typeDefs = `
     type ProjectsJson implements Node { 
-      image: ImageSharp @link(by: "fixed.originalName")
+      image: ImageSharp @link(by: "fluid.originalName")
     }
   `;
   createTypes(typeDefs);

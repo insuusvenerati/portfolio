@@ -887,13 +887,14 @@ button,
 
     &.cover {
       padding: 10em 0;
+      background-image: url('../images/nasa-space-unsplash.jpg');
       background-size: cover;
       background-position: center center;
     }
 
     &.one {
       background-color: #81918e;
-      background-image: url('../img/banner.jpg');
+      //background-image: url('../img/nasa-space-unsplash.jpg');
     }
 
     &.two {
@@ -1288,7 +1289,6 @@ button,
 }
 
 .aws-btn {
-
   --button-default-height: 55px;
   --button-default-font-size: 20px;
   --button-default-border-radius: 6px;
