@@ -7,7 +7,9 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 const Article = ({ title, fixed, fluid, author, repo }) => (
   <article className="item">
     <span className="image fit">
-      {fixed ? <Image fixed={fixed} /> : <Image fluid={fluid} />}
+      <a href={fixed.src}>
+        <Image fluid={fluid} />
+      </a>
     </span>
     <header>
       <a target="_blank" rel="noreferrer" href={repo}>
@@ -16,24 +18,6 @@ const Article = ({ title, fixed, fluid, author, repo }) => (
         </h3>
       </a>
     </header>
-    {/*<div*/}
-    {/*  style={{*/}
-    {/*    display: 'flex',*/}
-    {/*    padding: '5px',*/}
-    {/*    alignItems: 'center',*/}
-    {/*    justifyContent: 'start',*/}
-    {/*  }}*/}
-    {/*>*/}
-    {/*  <a*/}
-    {/*    style={{ textDecoration: 'none', marginRight: 5, fontSize: 24 }}*/}
-    {/*    href={repo}*/}
-    {/*    target="_blank"*/}
-    {/*    rel="noreferrer"*/}
-    {/*  >*/}
-    {/*    <FontAwesomeIcon icon={faGithub} />*/}
-    {/*  </a>*/}
-    {/*  <span>{author}</span>*/}
-    {/*</div>*/}
   </article>
 );
 
@@ -61,13 +45,12 @@ const Portfolio = () => {
         <header>
           <h2>Portfolio</h2>
         </header>
-
         <div className="row">
           {allProjectsEdges &&
-            allProjectsEdges.map(project => {
+            allProjectsEdges.map((project) => {
               const {
                 node: {
-                  image: { fluid: projectImage },
+                  image: { fluid: projectImage, fixed: fullSizeImage },
                   name: projectName,
                   author,
                   repo,
@@ -81,6 +64,7 @@ const Portfolio = () => {
                   key={id}
                   author={author}
                   repo={repo}
+                  fixed={fullSizeImage}
                 />
               );
             })}

@@ -8,8 +8,13 @@ const useProjects = () => {
           node {
             id
             image {
-              fluid {
-                ...GatsbyImageSharpFluid
+              fluid(maxWidth: 300) {
+                ...GatsbyImageSharpFluid_withWebp
+                src
+              }
+              fixed(quality: 100, width: 1500) {
+                ...GatsbyImageSharpFixed_withWebp
+                src
               }
             }
             name

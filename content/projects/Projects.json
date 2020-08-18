@@ -1,19 +1,19 @@
 [
   {
     "name": "Treats Portfolio",
-    "image": "treats-portfolio.jpeg",
+    "image": "ljnorwood.png",
     "author": "Sean Norwood",
     "repo": "https://github.com/insuusvenerati/treats-portfolio"
   },
   {
     "name": "Awesome AC",
-    "image": "awesome-ac.png",
+    "image": "ac-awesome.png",
     "author": "Sean Norwood",
     "repo": "https://github.com/insuusvenerati/ac-awesome"
   },
   {
     "name": "Smash Notes",
-    "image": "smash-notes.png",
+    "image": "smashnotes.png",
     "author": "Sean Norwood",
     "repo": "https://github.com/insuusvenerati/smash-notes-frontend"
   }

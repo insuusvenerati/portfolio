@@ -17,3 +17,6 @@ yarn.lock
 /.idea/codeStyles/Project.xml
 /.idea/vcs.xml
 /.idea/watcherTasks.xml
+
+# Local Netlify folder
+.netlify
