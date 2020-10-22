@@ -12,9 +12,9 @@
     "repo": "https://github.com/insuusvenerati/ac-awesome"
   },
   {
-    "name": "Smash Notes",
-    "image": "smashnotes.png",
+    "name": "Notes",
+    "image": "notes.png",
     "author": "Sean Norwood",
-    "repo": "https://github.com/insuusvenerati/smash-notes-frontend"
+    "repo": "https://github.com/insuusvenerati/notes-frontend"
   }
 ]
