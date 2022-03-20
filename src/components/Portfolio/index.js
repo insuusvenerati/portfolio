@@ -4,10 +4,10 @@ import useProjects from './query';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-const Article = ({ title, fixed, fluid, author, repo }) => (
+const Article = ({ title, fluid, repo, url = '#' }) => (
   <article className="item">
     <span className="image fit">
-      <a href={fixed.src}>
+      <a target="_blank" rel="noreferrer" href={url}>
         <Image fluid={fluid} />
       </a>
     </span>
@@ -21,15 +21,15 @@ const Article = ({ title, fixed, fluid, author, repo }) => (
   </article>
 );
 
-const Col = ({ title, fixed, fluid, author, repo }) => {
+const Col = ({ title, fluid, author, repo, url }) => {
   return (
     <div className="col-4 col-12-mobile">
       <Article
         repo={repo}
         author={author}
-        fixed={fixed}
         fluid={fluid}
         title={title}
+        url={url}
       />
     </div>
   );
@@ -50,11 +50,12 @@ const Portfolio = () => {
             allProjectsEdges.map((project) => {
               const {
                 node: {
-                  image: { fluid: projectImage, fixed: fullSizeImage },
+                  image: { fluid: projectImage },
                   name: projectName,
                   author,
                   repo,
                   id,
+                  url,
                 },
               } = project;
               return (
@@ -64,7 +65,7 @@ const Portfolio = () => {
                   key={id}
                   author={author}
                   repo={repo}
-                  fixed={fullSizeImage}
+                  url={url}
                 />
               );
             })}

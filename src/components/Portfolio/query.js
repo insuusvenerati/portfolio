@@ -8,18 +8,14 @@ const useProjects = () => {
           node {
             id
             image {
-              fluid(maxWidth: 300) {
+              fluid(maxWidth: 1080) {
                 ...GatsbyImageSharpFluid_withWebp
-                src
-              }
-              fixed(quality: 100, width: 1500) {
-                ...GatsbyImageSharpFixed_withWebp
                 src
               }
             }
             name
             repo
-            author
+            url
           }
         }
       }
