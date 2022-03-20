@@ -3,18 +3,35 @@
     "name": "Treats Portfolio",
     "image": "ljnorwood.png",
     "author": "Sean Norwood",
-    "repo": "https://github.com/insuusvenerati/treats-portfolio"
+    "repo": "https://github.com/insuusvenerati/treats-portfolio",
+    "url": "https://ljnorwood.com"
   },
   {
     "name": "Awesome AC",
     "image": "ac-awesome.png",
     "author": "Sean Norwood",
-    "repo": "https://github.com/insuusvenerati/ac-awesome"
+    "repo": "https://github.com/insuusvenerati/ac-awesome",
+    "url": "#"
   },
   {
     "name": "Notes",
     "image": "notes.png",
     "author": "Sean Norwood",
-    "repo": "https://github.com/insuusvenerati/notes-frontend"
+    "repo": "https://github.com/insuusvenerati/notes-frontend",
+    "url": "#"
+  },
+  {
+    "name": "Hello Free Shavacado",
+    "image": "hf.png",
+    "author": "Sean Norwood",
+    "repo": "https://github.com/insuusvenerati/hello-free-shavacado",
+    "url": "https://hf.stiforr.tech"
+  },
+  {
+    "name": "Minecraft Server Status",
+    "image": "mc-status.png",
+    "author": "Sean Norwood",
+    "repo": "https://github.com/insuusvenerati/minecraft-status-page",
+    "url": "https://minecraft-status.stiforr.tech/"
   }
 ]
