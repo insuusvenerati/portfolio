@@ -10,7 +10,7 @@ const Contact = () => {
     status: 200,
     error: null,
   });
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     event.preventDefault();
     const form = event.target;
     axios({
@@ -18,10 +18,10 @@ const Contact = () => {
       url: 'https://formspree.io/xaypvodp',
       data: new FormData(form),
     })
-      .then(response => {
+      .then((response) => {
         setResponseStatus({ data: response.data, status: response.status });
       })
-      .catch(error =>
+      .catch((error) =>
         setResponseStatus({
           data: error.data,
           status: error.status,
@@ -37,7 +37,7 @@ const Contact = () => {
           <h2>Contact</h2>
         </header>
 
-        <p>Please contact me to request a Resume / CV</p>
+        <p>Please contact me to request more information.</p>
 
         <form onSubmit={handleSubmit} name="Portfolio">
           <div className="row">
