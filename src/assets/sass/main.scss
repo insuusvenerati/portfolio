@@ -436,12 +436,12 @@ article {
   }
 
   &.avatar48 {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
 
     img {
-      width: 48px;
-      height: 48px;
+      width: 50px;
+      height: 50px;
     }
   }
 
@@ -736,7 +736,7 @@ button,
 
 #logo {
   position: relative;
-  margin: 1.75em 1.5em 1.5em 1.5em;
+  margin: 1em 1em 1em 1em;
   min-height: 48px;
   cursor: default;
 
@@ -760,7 +760,7 @@ button,
   .image {
     position: absolute;
     left: 0;
-    top: 0;
+    top: -15px;
   }
 }
 

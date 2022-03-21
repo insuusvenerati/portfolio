@@ -17,7 +17,7 @@ export default function SideBar({ sections = [] }) {
       <div id="header">
         <div className="top">
           <Header
-            avatar={pic}
+            avatar="../../assets/img/avatar.png"
             title={config.authorName}
             heading={config.heading}
           />
