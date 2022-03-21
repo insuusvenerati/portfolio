@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import config from '../../../config';
 import Footer from './Footer';
 import Header from './Header';
 import Nav from './Nav';
 import TopNav from './TopNav';
-import config from '../../../config';
-import pic from '../../assets/img/avatar.png';
 
 export default function SideBar({ sections = [] }) {
   const [headerOpen, toggleHeader] = useState(false);

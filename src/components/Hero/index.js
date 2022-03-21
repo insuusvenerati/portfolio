@@ -1,9 +1,5 @@
-import React from 'react';
-import Scroll from '../Scroll';
 import { AwesomeButton } from 'react-awesome-button';
-import { useHeroData } from './query';
-import Img from 'gatsby-image';
-import BackgroundImage from 'gatsby-background-image';
+import Scroll from '../Scroll';
 
 function UnsplashAttribution() {
   return (
@@ -21,8 +17,6 @@ function UnsplashAttribution() {
 }
 
 const Hero = () => {
-  const { desktopImage } = useHeroData();
-
   return (
     <section id="top" className="one dark cover">
       <div className="container">

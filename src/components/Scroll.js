@@ -1,8 +1,8 @@
-import smoothscroll from 'smoothscroll-polyfill';
 import React from 'react';
+import smoothscroll from 'smoothscroll-polyfill';
 import PropTypes from 'prop-types';
 
-const Element = props => {
+const Element = (props) => {
   return props.children;
 };
 
