@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'gatsby-image';
 import useProjects from './query';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
